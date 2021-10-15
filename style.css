@@ -1,0 +1,99 @@
+body {
+	background-color: #fff;
+  margin: auto;
+}
+header {
+	height: 120px;
+	background-color: #fff;
+}
+
+#content {
+	padding-top: 20px;
+	min-height: 400px;
+}
+footer {
+	background-color: #bdcbd9;
+}
+.wrapper {
+	width: 980px;
+	margin: auto;
+}
+.wrapper:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/* ----- =logo ----- */
+
+header h1 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 40px;
+  float: left;
+	margin: 0 0 0 20px;
+  padding-top: 50px
+}
+header h1 a  {
+	text-decoration: none;
+	color: #8f99a4;
+}
+header h1 a:hover {
+	color: #777;
+}
+
+/* ----- =header & nav ----- */
+
+nav {
+  float: right;
+  margin: 72px 20px 0 0;
+
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 18px;
+  color: #219ebc;
+  font-family: Quattrocento, sans-serif;
+}
+
+nav a:hover {
+  color: #777;
+}
+
+nav a:last-of-type {
+  margin-right: 20px;
+}
+
+main {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 20px;
+	padding-top: 10px;
+	margin: 100px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  color: black;
+}
+
+ul a {
+  color: black
+}
+
+ul a:hover {
+  color:#219ebc
+}
+
+a {
+  font-family: Quattrocento, sans-serif;
+  font-size: 20px;
+}
+
+a:link    { color: black;  }
+a:visited { color: black;   }
+a:hover   { color: #219ebc; }
+a:active  { color: #219ebc;  }
